@@ -2,7 +2,7 @@ terraform {
   backend "remote" {
     organization = "liewgzh_terraform"
     workspaces {
-	name = "fdm_cloud_proj"
+	name = "terraformlearn"
     }
   }
 
